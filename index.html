@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyesuk's Portfolio</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.28/bundled/lenis.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body class="remove">
+    <div class="cursor">
+        <p class="circle">view<br>site</p>
+    </div>
+
+    <div class="cursor2">
+        <img class="wooah" src="./assets/images/wooah.jpg" alt>
+        <img class="naver" src="./assets/images/naver.PNG" alt>
+        <img class="andar" src="./assets/images/andar.jpg" alt>
+         <img class="seoul" src="./assets/images/seoul.jpg" alt>
+        <p class="circle">view<br>site</p>
+    </div>
+    <div class="intro">
+        <div class="intro-inner">
+            <p class="letter">
+                <span>h</span>
+                <span>y</span>
+                <span>e</span>
+                <span>s</span>
+                <span>u</span>
+                <span>k</span>
+                <span>.</span>
+            </p>
+            
+        </div>
+    </div>
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo"><a href=""><img src="./assets/images/logo.png" alt="로고"></a></h1>
+            <nav class="gnb">
+                <ul class="gnb-list">
+                    <li class="gnb-item">
+                        <a data-scroll-1="#sc-about">
+                            <span>A</span>
+                            <span>B</span>
+                            <span>O</span>
+                            <span>U</span>
+                            <span>T</span>
+                        </a>
+                        <a data-scroll-1="#sc-about">
+                            <span>A</span>
+                            <span>B</span>
+                            <span>O</span>
+                            <span>U</span>
+                            <span>T</span>
+                        </a>
+                    </li>
+                    <li class="gnb-item">
+                        <a data-scroll-1="#sc-main-project">
+                            <span>P</span>
+                            <span>R</span>
+                            <span>O</span>
+                            <span>J</span>
+                            <span>E</span>
+                            <span>C</span>
+                            <span>T</span>
+                        </a>
+                        <a data-scroll-1="#sc-main-project">
+                            <span>P</span>
+                            <span>R</span>
+                            <span>O</span>
+                            <span>J</span>
+                            <span>E</span>
+                            <span>C</span>
+                            <span>T</span>
+                        </a>
+                    </li>
+                    <li class="gnb-item">
+                        <a data-scroll-1="#contact">
+                            <span>C</span>
+                            <span>O</span>
+                            <span>N</span>
+                            <span>T</span>
+                            <span>A</span>
+                            <span>C</span>
+                            <span>T</span>
+                        </a>
+                        <a data-scroll-1="#contact">
+                            <span>C</span>
+                            <span>O</span>
+                            <span>N</span>
+                            <span>T</span>
+                            <span>A</span>
+                            <span>C</span>
+                            <span>T</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="m-gnb">
+                <button class="btn-menu">
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                    <span class="blind">메뉴버튼</span>
+                </button>
+                <div class="m-gnb-wrapper">
+                    <a href="#sc-about">ABOUT</a>
+                    <a href="#sc-main-project">PROJECT</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="sc-about" id="sc-about">
+            <div class="text-area">
+                <h2 class="title">
+                    <div class="line1">
+                        <span>T</span>
+                        <span>R</span>
+                        <span>Y</span>
+                        <span>&nbsp;</span>
+                        <span>H</span>
+                        <span>A</span>
+                        <span>R</span>
+                        <span>D</span>
+                    </div>
+                    <div class="line2">
+                        <span>M</span>
+                        <span>A</span>
+                        <span>K</span>
+                        <span>E</span>
+                        <span>&nbsp;</span>
+                        <span>I</span>
+                        <span>T</span>
+                        <span>&nbsp;</span>
+                        <span>B</span>
+                        <span>E</span>
+                        <span>T</span>
+                        <span>T</span>
+                        <span>E</span>
+                        <span>R</span>
+                        <span>.</span>
+                    </div>
+                </h2>
+                <p class="desc">
+                    탄탄한 마크업 뿐만 아니라 트렌드에 발맞추어 다양한 인터렉션 구현에 대한 공부를 꾸준히 이어나가 <br> 스스로 역량을 키워나가는 사람이 되고자 합니다.
+                </p>
+            </div>
+        </section>
+        <section class="sc-main-project" id="sc-main-project">
+            <div class="inner">
+                <h2 class="title">MAIN <br class="m-br"> PROJECT</h2>
+                <ul class="content-list">
+                    <li class="content-item center" data-scroll-1="-5">
+                        <a href="https://hyesukhan.github.io/231003_snackwithbenefits/"  class="circle" target="_blank">
+                            <div class="img-container">
+                                <div class="mask"></div>
+                                <video muted autoplay loop>
+                                    <source src="./assets/images/snack.mp4">
+                                </video>
+                            </div>
+                        </a>
+                        <div class="text-area">
+                            <p class="name">SNACKWITHBENEFITS</p>
+                            <div class="tag-area">
+                                <div class="tag">SCROLLTRIGGER</div>
+                                <div class="tag">GSAP</div>
+                                <div class="tag">JS</div>
+                            </div>
+                            <p class="desc">
+                                SNACK WITH BENEFITS 홈페이지를 클론코딩한 사이트이며 GSAP 활용에 중점을 둔 사이트입니다
+                            </p>
+                            <a href="https://velog.io/@hyesuk_0703/Snack-with-benefits" target="_blank" class="velog"><div class="blind">벨로그 링크</div></a>
+                        </div>
+                    </li>
+                    <li class="content-item left" data-scroll-1="-5">
+                        <a href="https://hyesukhan.github.io/231101_appleWatch/"  class="circle" target="_blank">
+                            <div class="img-container">
+                                <div class="mask"></div>
+                                <video muted autoplay loop>
+                                    <source src="./assets/images/applewatch.mp4">
+                                </video>
+                            </div>
+                        </a>
+                        <div class="text-area">
+                            <p class="name">APPLEWATCH</p>
+                            <div class="tag-area">
+                                <div class="tag">RESPONSIVE</div>
+                                <div class="tag">SCROLLTRIGGER</div>
+                                <div class="tag">GSAP</div>
+                                <div class="tag">JS</div>
+                            </div>
+                            <p class="desc">
+                                AppleWatch Series9 홈페이지를 클론코딩한 반응형 사이트이며 GSAP을 사용해 다양한 애니메이션 효과에 중점을 둔 사이트입니다
+                            </p>
+                            <a href="https://velog.io/@hyesuk_0703/Apple-Watch-Series9" target="_blank" class="velog"><div class="blind">벨로그 링크</div></a>
+                        </div>
+                    </li>
+                    <li class="content-item right" data-scroll-1="-5">
+                        <a href="https://hyesukhan.github.io/231011_enterprise/"  class="circle" target="_blank">
+                            <div class="img-container">
+                                <video muted autoplay loop>
+                                    <source src="./assets/images/enterprise.mp4">
+                                </video>
+                            </div>
+                        </a>
+                        <div class="text-area">
+                            <p class="name">ENTERPRISE</p>
+                            <div class="tag-area">
+                                <div class="tag">SCROLLTRIGGER</div>
+                                <div class="tag">GSAP</div>
+                                <div class="tag">JS</div>
+                            </div>
+                            <p class="desc">
+                                엔터프라이즈 홈페이지를 클론코딩한 사이트이며 다양한 애니메이션 효과에 중점을 둔 사이트입니다
+                            </p>
+                            <a href="https://velog.io/@hyesuk_0703/%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8" target="_blank" class="velog"><div class="blind">벨로그 링크</div></a>
+                        </div>
+                    </li>
+                    <li class="content-item center" data-scroll-1="-5">
+                        <a href="https://hyesukhan.github.io/231025_lotte2/" class="circle" target="_blank">
+                            <div class="img-container">
+                                <div class="mask"></div>
+                                <video muted autoplay loop>
+                                    <source src="./assets/images/lotte.mp4">
+                                </video>
+                            </div>
+                        </a>
+                        <div class="text-area">
+                            <p class="name">롯데렌터카</p>
+                            <div class="tag-area">
+                                <div class="tag">RESPONSIVE</div>
+                                <div class="tag">SCROLLTRIGGER</div>
+                                <div class="tag">GSAP</div>
+                                <div class="tag">JS</div>
+                            </div>
+                            <p class="desc">
+                                롯데렌터카 모바일 홈페이지를 클론코딩한 사이트이며 SCSS사용과 JSON 데이터 형식과 Fetch 문법으로 데이터 연동을 하였습니다
+                            </p>
+                            <a href="https://velog.io/@hyesuk_0703/%EB%A1%AF%EB%8D%B0%EB%A0%8C%ED%84%B0%EC%B9%B4-%EB%AA%A8%EB%B0%94%EC%9D%BC"  target="_blank" class="velog"><div class="blind">벨로그 링크</div></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sc-sub-project" id="sc-sub-project">
+            <div class="inner">
+                <h2 class="title">SUB  <br class="m-br"> PROJECT</h2>
+                <div class="sub-project-wrapper">
+                    <div class="text-area">
+                        <p class="desc">
+                            I'd like to introduce my self-made publishing project. I've crafted websites that emphasize user engagement through interesting designs and various interactions.
+                        </p>
+                    </div>
+                    <div class="content-area">
+                        <ul class="content-list">
+                            <li class="content-item" id="wooah">
+                                <div class="line"></div>
+                                <a href="https://hyesukhan.github.io/230930_wooah/" target="_blank">
+                                    <h3 class="name">우아한 형제들</h3>
+                                    <div class="tag-area">
+                                        <div class="tag">RESPONSIVE</div>
+                                        <div class="tag">JS</div>
+                                        <div class="tag">SWIPER</div>
+                                    </div>
+                                    <i class="icon-arrow">
+                                        <svg fill="#000" viewBox="0 0 15 15"><path fill="#000" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                                        <svg fill="#000" viewBox="0 0 15 15"><path fill="#000" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="content-item" id="naver">
+                                <div class="line"></div>
+                                <a href="https://hyesukhan.github.io/230923_naver_careers/" target="_blank">
+                                    <h3 class="name">네이버커리어</h3>
+                                    <div class="tag-area">
+                                        <div class="tag">RESPONSIVE</div>
+                                        <div class="tag">SWIPER</div>
+                                        <div class="tag">JS</div>
+                                    </div>
+                                    <i class="icon-arrow">
+                                        <svg fill="#000" viewBox="0 0 15 15"><path fill="#000" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                                        <svg fill="#000" viewBox="0 0 15 15"><path fill="#000" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="content-item" id="andar">
+                                <div class="line"></div>
+                                <a href="https://hyesukhan.github.io/230920_andar/" target="_blank">
+                                    <h3 class="name">안다르(mobile)</h3>
+                                    <div class="tag-area">
+                                        <div class="tag">MOBILE</div>
+                                        <div class="tag">JQUERY</div>
+                                    </div>
+                                    <i class="icon-arrow">
+                                        <svg fill="#000" viewBox="0 0 15 15"><path fill="#000" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                                        <svg fill="#000" viewBox="0 0 15 15"><path fill="#000" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="content-item" id="seoul">
+                                <div class="line"></div>
+                                <a href="https://hyesukhan.github.io/230912_work1/" target="_blank">
+                                    <h3 class="name">서울시청</h3>
+                                    <div class="tag-area">
+                                        <div class="tag">IS</div>
+                                        <div class="tag">IR</div>
+                                        <div class="tag">접근성</div>
+                                    </div>
+                                    <i class="icon-arrow">
+                                        <svg fill="#000" viewBox="0 0 15 15"><path fill="#000" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                                        <svg fill="#000" viewBox="0 0 15 15"><path fill="#000" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="contact">
+        <div class="footer-inner">
+            <div class="title-area">
+                <p class="name">Han Hye Suk</p>
+                <p class="desc">
+                    Thank you for looking!
+                </p>
+            </div>
+            <div class="info-area">
+                <div class="content-wrap">
+                    <a href="mailto:qew9546@naver.com" class="mail">E-mail : qew9546@naver.com</a>
+                    <a href="tel:+01063007918" class="tel">Tel : 010-6300-7918</a>
+                </div>
+                <div class="icon-wrap">
+                    <a href="https://velog.io/@hyesuk_0703" target='_blank' class="icon"><img src="./assets/images/velog-icon.png" alt="벨로그 아이콘"></a>
+                    <a href="https://github.com/hyesukHan" target='_blank' class="icon"><img src="./assets/images/free-icon-github-logo-25231.png" alt="깃허브 아이콘"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
